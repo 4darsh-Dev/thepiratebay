@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "New Times Roman", monospace;
+    font-size: 17px; */
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: whitesmoke;
+
+}
+main{
+    height: 620px;
+}
+.ico{
+    width: 40px;
+    height: 40px;
+    background-color:red;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("/img/pirate_bay_logo.png");
+    border: 2px solid rgba(72, 72, 255, 0.87);
+    border-radius: 5px;
+    background-attachment:cover;
+    border-radius: 25px;
+}
+header {
+    width: 100vw;
+    height: 64px;
+    background-color: rgba(72, 72, 255, 0.87);
+}
+
+footer {
+    width: 100vw;
+    height: 60px;
+    margin-top: 15px;
+    color: white;
+    background-color: rgba(72, 72, 255, 0.87);
+    justify-content: center;
+    display: flex;
+    font-family: "Roboto",monospace;
+    /* text-align: center; */
+}
+nav{
+    display: flex;
+
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding-top: 1.5em;
+    padding-left: 0.8vw;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding-left: 1.5vw;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 100vw;
+    height: auto;
+    position: relative;
+
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+
+}
+.search input{
+    width: 427px;
+    height: 36px;
+  margin-left: -110px;
+    padding:1px ;
+    border: 2px solid rgba(85, 85, 253, 0.781);
+    color: black;
+    border-radius:25px;
+   
+}
+.btn{
+    height: 36px;
+    width: 59px;
+    color: blue;
+    border-radius: 25px;
+    border: 2px solid blue;
+    margin-right: -182px;
+    margin-left: 8px;
+
+}
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.result{
+    width: 420px;
+    height: 96px;
+    position: absolute;
+    top: 400px;
+    left : 32rem;
+        border: 2px solid blue;
+        border-radius: 10px;
+    background-color: white;
+
+}
+footer{
+    font-family: sans-serif, monospace;
+}

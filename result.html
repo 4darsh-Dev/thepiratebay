@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pirate Bay</title>
+    <link rel="stylesheet" href="result.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="ico">
+
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="search">
+                <div class="logo">
+                    <img src="/img/logo_new.png" width="200px" alt="the pirate bay">
+                    <div class="search_bar">
+                        <input type="text" class="Inputs" id="mysearch" name="mysearch" placeholder="Search Here">
+                        <button id="search_btn" class="btn"><img src="/img/search_button.png" alt="search" width="28px" height="26px" ></button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="result">
+             
+
+            </div>
+        </div>
+    </main>
+    <script>
+         var queryString = location.search.substring(1);
+         var a = queryString.split("|");
+         var result =a[0];
+         console.log(result);
+
+       
+    </script>
+</body>
+</html>
